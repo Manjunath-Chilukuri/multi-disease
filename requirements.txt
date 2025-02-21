@@ -1,0 +1,10 @@
+Flask
+Flask-SQLAlchemy
+PyMySQL
+bcrypt
+numpy
+pandas
+scikit-learn
+pillow
+flask-session
+gunicorn
