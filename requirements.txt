@@ -19,8 +19,8 @@ scikit-learn==1.2.1
 scipy==1.7.3    # ✅ Lighter version (reduces size)
 
 # TensorFlow - Use a smaller version
-tensorflow-cpu==2.6.0  # ✅ Works with Python 3.10.9, reduces slug size
-keras==2.6.0          # ✅ Matches TensorFlow version
+tensorflow-cpu==2.9.0  # ✅ Works with Python 3.10.9, reduces slug size
+keras==2.9.0          # ✅ Matches TensorFlow version
 
 # File Handling & Image Processing
 h5py==3.7.0
