@@ -12,7 +12,7 @@ pandas==1.5.3
 scikit-learn==1.2.1
 scipy==1.9.3
 
-tensorflow-cpu==2.6.0  # ✅ Works on Heroku
+tensorflow-cpu==2.9.0  # ✅ Works on Heroku
 keras==2.6.0  # ✅ Must match TensorFlow version
 
 h5py==3.12.1
