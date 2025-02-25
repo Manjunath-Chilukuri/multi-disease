@@ -1,27 +1,13 @@
-# Web Framework
-Flask==3.1.0
-Flask-Migrate==4.1.0
-Flask-Session==0.8.0
-Flask-SQLAlchemy==3.1.1
-gunicorn==20.1.0
-
-# Database
-PyMySQL==0.9.3
-SQLAlchemy==2.0.38
-
-# Security
-bcrypt==3.2.0
-
-# Machine Learning & Data Processing
-numpy==1.23.5    # ✅ Smaller than 1.21+
-pandas==1.5.3   # ✅ Smaller than 1.5.3
-scikit-learn==1.0.2  # ✅ Lighter version
-scipy==1.8.0    # ✅ Compatible with Python 3.10.9
-
-# **Key Change**: Using Smallest TensorFlow Version
-tensorflow-cpu==2.9.0  # ✅ Smallest TensorFlow version for Python 3.10.9
-keras==2.9.0          # ✅ Matches TensorFlow version
-
-# File Handling & Image Processing
-h5py==3.1.0  # ✅ Smaller than 3.7.0
-Pillow==8.4.0  # ✅ Smaller than 9.4.0
+Flask
+Flask-Migrate
+Flask-Session
+Flask-SQLAlchemy
+gunicorn  # ✅ Required for Heroku
+numpy
+pandas
+scikit-learn
+scipy
+tensorflow-cpu==2.9.0
+keras
+h5py
+Pillow
