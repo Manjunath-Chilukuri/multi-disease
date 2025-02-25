@@ -19,7 +19,7 @@ scikit-learn==1.0.2  # ✅ Lighter version
 scipy==1.8.0    # ✅ Smaller than 1.7.3
 
 # **Key Change**: Using TensorFlow Lite (smaller than TensorFlow-CPU)
-tensorflow-lite==2.5.0  # ✅ Smallest TensorFlow version
+tensorflow-lite==2.9.0  # ✅ Smallest TensorFlow version
 
 # File Handling & Image Processing
 h5py==3.1.0  # ✅ Smaller than 3.7.0
