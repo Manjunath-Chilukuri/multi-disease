@@ -13,15 +13,14 @@ SQLAlchemy==2.0.38
 bcrypt==3.2.0
 
 # Machine Learning & Data Processing
-numpy==1.21.6   # ✅ Lighter version (reduces size)
-pandas==1.5.3
-scikit-learn==1.2.1
-scipy==1.7.3    # ✅ Lighter version (reduces size)
+numpy==1.19.5   # ✅ Lighter version (reduces size)
+pandas==1.3.5    # ✅ Smaller than 1.5.3
+scikit-learn==1.0.2  # ✅ Lighter version
+scipy==1.6.3    # ✅ Smaller than 1.7.3
 
-# TensorFlow - Use the smallest version that works with Python 3.10.9
-tensorflow-cpu==2.9.0  # ✅ Compatible & Smaller than 2.10+
-keras==2.9.0          # ✅ Matches TensorFlow version
+# **Key Change**: Using TensorFlow Lite (smaller than TensorFlow-CPU)
+tensorflow-lite==2.5.0  # ✅ Smallest TensorFlow version
 
 # File Handling & Image Processing
-h5py==3.7.0
-Pillow==9.4.0
+h5py==3.1.0  # ✅ Smaller than 3.7.0
+Pillow==8.4.0  # ✅ Smaller than 9.4.0
