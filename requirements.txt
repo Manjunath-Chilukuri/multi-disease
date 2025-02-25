@@ -10,11 +10,10 @@ bcrypt==3.2.0
 numpy==1.23.5
 pandas==1.5.3
 scikit-learn==1.2.1
-scipy==1.9.3  # ✅ Lightweight version
+scipy==1.9.3
 
-# TensorFlow Optimizations
-tensorflow-cpu==2.7.0  # ✅ Lightweight version (use 2.6.0 if size is still large)
-keras==2.7.0  # ✅ Matching TensorFlow version
+tensorflow-cpu==2.6.0  # ✅ Works on Heroku
+keras==2.6.0  # ✅ Must match TensorFlow version
 
 h5py==3.12.1
 opt_einsum==3.3.0
