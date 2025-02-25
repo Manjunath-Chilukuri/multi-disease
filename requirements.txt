@@ -4,7 +4,7 @@ Flask-Session==0.8.0
 Flask-SQLAlchemy==3.1.1
 PyMySQL==0.9.3
 SQLAlchemy==2.0.38
-gunicorn==23.0.0  # Required for Heroku
+gunicorn
 
 bcrypt==3.2.0
 numpy==1.23.5
@@ -12,7 +12,7 @@ pandas==1.5.3
 scikit-learn==1.2.1
 scipy==1.9.3  # ✅ Lightweight version
 
-#tensorflow-cpu==2.9.1  # ✅ Smaller than full TensorFlow
+tensorflow-cpu==2.9.1  # ✅ Smaller than full TensorFlow
 #tensorflow-estimator==2.9.0
 #tensorflow-io-gcs-filesystem==0.29.0
 
