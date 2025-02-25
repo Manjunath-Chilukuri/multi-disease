@@ -18,8 +18,8 @@ pandas==1.5.3
 scikit-learn==1.2.1
 scipy==1.7.3    # ✅ Lighter version (reduces size)
 
-# TensorFlow - Use a smaller version
-tensorflow-lite==2.9.0  # ✅ Works with Python 3.10.9, reduces slug size
+# TensorFlow - Use the smallest version that works with Python 3.10.9
+tensorflow-cpu==2.9.0  # ✅ Compatible & Smaller than 2.10+
 keras==2.9.0          # ✅ Matches TensorFlow version
 
 # File Handling & Image Processing
