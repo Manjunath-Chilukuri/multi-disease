@@ -1,13 +1,1 @@
-Flask
-Flask-Migrate
-Flask-Session
-Flask-SQLAlchemy
-gunicorn  # ✅ Required for Heroku
-numpy
-pandas
-scikit-learn
-scipy
-tensorflow-cpu==2.9.0
-keras
-h5py
-Pillow
+
