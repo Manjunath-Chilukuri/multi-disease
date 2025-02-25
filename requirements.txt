@@ -1,18 +1,17 @@
-Flask
-Flask-Migrate
-Flask-Session
-Flask-SQLAlchemy
-PyMySQL
-SQLAlchemy
-gunicorn
-bcrypt
-numpy
-pandas
-scikit-learn
-scipy
-tensorflow-cpu==2.9.0  # ✅ Works on Heroku
-keras==2.9.0  # ✅ Must match TensorFlow version
+Flask==3.1.0
+Flask-Migrate==4.1.0
+Flask-Session==0.8.0
+Flask-SQLAlchemy==3.1.1
+PyMySQL==0.9.3
+SQLAlchemy==2.0.38
+gunicorn==20.1.0
 
-h5py
-opt_einsum
-Pillow
+bcrypt==3.2.0
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.1
+scipy==1.9.3
+
+tensorflow-cpu==2.10.0
+h5py==3.7.0
+Pillow==9.4.0
