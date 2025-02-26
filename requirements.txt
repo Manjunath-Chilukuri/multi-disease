@@ -7,7 +7,7 @@ numpy
 pandas
 scikit-learn
 scipy
-tensorflow-cpu==2.9.0
+tensorflow
 keras
 h5py
 Pillow
