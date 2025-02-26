@@ -1,22 +1,13 @@
-Flask==3.1.0
-Flask-Migrate==4.1.0
-Flask-Session==0.8.0
-Flask-SQLAlchemy==3.1.1
-PyMySQL==1.1.0
-SQLAlchemy==2.0.38
-gunicorn==23.0.0  # Required for Heroku
-
-bcrypt==4.0.1
-numpy==1.24.4
-pandas==1.5.3
-scikit-learn==1.2.2
-scipy==1.9.3  # ✅ Lightweight version
-
-tensorflow-cpu==2.9.1  # ✅ Lighter than full TensorFlow
-# Consider using tensorflow-cpu==2.8.0 if slug size is still an issue
-
-h5py==3.9.0
-keras==2.9.0
-opt-einsum==3.3.0
-Pillow==9.5.0
-
+Flask
+Flask-Migrate
+Flask-Session
+Flask-SQLAlchemy
+gunicorn  # ✅ Required for Heroku
+numpy
+pandas
+scikit-learn
+scipy
+tensorflow-cpu==2.9.0
+keras
+h5py
+Pillow
