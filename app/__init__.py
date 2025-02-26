@@ -14,8 +14,8 @@ def create_app():
     # Configurations
     app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv(
         'DATABASE_URI',
-        #'mysql+pymysql://root:root@localhost/multi_disease_prediction'
-        'mysql+pymysql://wru96gtx9d6q9pkz:rb3ddwwalkyonvgs@y2w3wxldca8enczv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/em2rl620shdqtadc'
+        'mysql+pymysql://root:root@localhost/multi_disease_prediction'
+        #'mysql+pymysql://wru96gtx9d6q9pkz:rb3ddwwalkyonvgs@y2w3wxldca8enczv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/em2rl620shdqtadc'
     )
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'your_secret_key')
