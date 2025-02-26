@@ -1,13 +1,13 @@
+tensorflow-cpu==2.8.0
+keras
+h5py
 Flask
 Flask-Migrate
 Flask-Session
 Flask-SQLAlchemy
-gunicorn  # ✅ Required for Heroku
+gunicorn
 numpy
 pandas
 scikit-learn
 scipy
-tensorflow
-keras
-h5py
 Pillow
