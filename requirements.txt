@@ -1,26 +1,13 @@
-Flask==3.1.0
-Flask-Migrate==4.1.0
-Flask-Session==0.8.0
-Flask-SQLAlchemy==3.1.1
-PyMySQL==0.9.3
-SQLAlchemy==2.0.38
-gunicorn==23.0.0  # Required for Heroku
-
-bcrypt==3.2.0
-numpy==1.23.5
-pandas==1.5.3
-scikit-learn==1.2.1
-scipy==1.9.3  # ✅ Lightweight version
-
-tensorflow-cpu==2.9.1  # ✅ Smaller than full TensorFlow
-tensorflow-estimator==2.9.0
-tensorflow-io-gcs-filesystem==0.29.0
-
-h5py==3.12.1
-keras==2.9.0
-opt_einsum==3.3.0
-Pillow==9.4.0
-
-Werkzeug==3.1.3
-requests==2.32.3
-urllib3==2.3.0
+Flask
+Flask-Migrate
+Flask-Session
+Flask-SQLAlchemy
+gunicorn  # ✅ Required for Heroku
+numpy
+pandas
+scikit-learn
+scipy
+tensorflow-cpu==2.9.0
+keras
+h5py
+Pillow
