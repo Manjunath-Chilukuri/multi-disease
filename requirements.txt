@@ -10,3 +10,4 @@ scipy
 keras
 h5py
 Pillow
+pymysql
